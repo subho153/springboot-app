@@ -1,4 +1,4 @@
 FROM lolhens/baseimage-openjre
 ADD . .
-EXPOSE 80
+EXPOSE 8081
 ENTRYPOINT ["java", "-jar", "springbootApp.jar"]
